@@ -1,0 +1,41 @@
+/* Centering movie details */
+.movie-details {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Movie Poster */
+.movie-details img {
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Movie Title */
+.movie-details h2 {
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+/* Movie Info */
+.movie-details p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Back Button */
+.back-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #218838;
+}
